@@ -1,0 +1,24 @@
+{
+  "name": "eleventy-from-scratch",
+  "version": "1.0.0",
+  "description": "My course work for Learn Eleventy From Scratch by Piccalilli / Andy Bell",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattKaiserIO/eleventy-from-scratch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MattKaiserIO/eleventy-from-scratch/issues"
+  },
+  "homepage": "https://github.com/MattKaiserIO/eleventy-from-scratch#readme"
+}
