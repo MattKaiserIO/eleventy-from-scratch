@@ -19,6 +19,7 @@ module.exports = {
 
         return response;
     },
+
     /**
      * Filters out the passed item from the passed collection and randomises and limits them based on flags
      * 
@@ -54,5 +55,17 @@ module.exports = {
         }
 
         return filteredItems;
+    },
+
+    /**
+     * Take an array of keys and return back items that match.
+     * Note: items in the collection must have a key attribute in Front Matter
+     * 
+     * @param {Array} collection 11ty collection
+     * @param {Array} keys collection of keys
+     * @returns {Array} result collection or empty
+     */
+    filterCollectionByKeys(collection, keys) {
+        return collection.filter(x => keys.includes(x.data.key));
     }
 };
